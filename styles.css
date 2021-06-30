@@ -1,0 +1,364 @@
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.banner{
+    background-image:  url("./images/bg-pattern-intro.svg"),
+                        linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    height: 80vh;
+    background-size:200%;
+    background-position: center;
+    border-radius: 0 0 0 120px;
+}
+
+.navbar-brand{
+    margin-right: 35px;
+}
+
+
+
+.nav-item a{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    
+}
+
+.nav-link {
+    margin: 0 5px;
+
+}
+
+.dropdown-menu a{
+    color: black;
+    font-size: 0.8em;
+}
+
+.dropdown-menu a:hover{
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+    padding-top: 3%;
+}
+
+.banner-text{
+    text-align: center;
+    padding-top: 7%;
+    color: white;
+}
+
+.banner-text h1{
+
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 3.5em;
+
+}
+
+.banner-text p{
+
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 3%;
+
+}
+
+.banner-text span{
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    padding: 0.8em;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+    
+
+}
+
+.start{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    
+}
+
+.start:hover, .start:focus{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+}
+
+.learn{
+    border: 1px solid white;
+}
+
+.learn:hover, .learn:focus{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+
+}
+
+.right-menu li{
+    margin: 0 15px;
+    padding: 0 0.6em;
+    border-radius: 25px;
+
+}
+
+.sign-up{
+
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+
+}
+
+.sign-up a{
+    color: hsl(356, 100%, 66%);;
+}
+
+.sign-up a:hover, .sign-up a:focus{
+    color: white;
+}
+
+.sign-up:hover, .sign-up:focus{
+    background-color: hsl(356, 100%, 66%); 
+    
+}
+
+.banner-content{
+
+    padding: 4% 8%;
+    
+}
+
+.description{
+
+    font-family: 'Overpass', sans-serif;
+    color: hsl(207, 13%, 34%);
+
+}
+
+.description h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5em;
+    
+    position: relative;
+    top: 120px;
+}
+
+.description h3{
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+
+.description p{
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 9%;
+    
+}
+
+.desc-text{
+    padding-top: 36%;
+    padding-left: 15%;
+    padding-right: 3%;
+    
+}
+
+.mobile{
+    display: none;
+}
+
+.state-of-art{
+    background-image:   url("./images/bg-pattern-circles.svg"),
+                        linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    
+    height: 60vh;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    margin-top: 3%;
+    border-radius: 0 100px 0 100px;
+
+}
+
+.state-of-art img{
+    position: relative;
+    bottom: 60px;
+    padding-left: 5%;
+}
+
+.state-of-art h2{
+
+    font-weight: 600;
+    font-size: 2.5em;
+
+
+
+}
+
+.state-of-art p{
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 9%;
+}
+
+.art-text{
+    padding: 6% 8%;
+}
+
+.free-text{
+    padding-top: 57%;
+    padding-right: 8%;
+}
+
+footer{
+    background-color: hsl(240, 10%, 16%);
+    color: white;
+    border-radius: 0 100px 0 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8em;
+    line-height: 2.5em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5% 0;
+
+}
+
+
+.footer ul li{
+    list-style: none;
+    font-weight: 300;
+}
+
+
+
+
+.footer ul li:nth-of-type(1){
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+}
+
+
+
+@media (max-width: 600px){
+    .banner{
+        height: 110vh;
+    }
+
+    .banner-text{
+        margin-top: 100px;
+    }
+
+    .banner-text h1{
+        font-size: 2.5em;
+        padding: 0 25px;
+    }
+    .banner-text p{
+        padding: 35px;
+    }
+
+    .description h2{
+        display: block;
+        position: static;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    
+        
+    }
+
+    .desc-text{
+        padding: 0 20px;
+    }
+
+    .desc-text h3{
+        margin: 0 80px;
+        font-size: 2em;
+    }
+
+    .desc-text p{
+        margin: 0 60px;
+    }
+
+    .description{
+        text-align: center;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description img{
+        padding-bottom: 40px;
+    }
+
+
+    .state-of-art img{
+        padding: 0 10px;
+        padding-bottom: 0;
+        width: 98%;
+        bottom: 220px;
+    }
+
+    .state-of-art{
+        text-align: center;
+        margin-top: 280px;
+        height: 120vh;
+        margin-bottom: 5%;
+    }
+
+    .art-text{
+        position: relative;
+        bottom: 180px;
+        padding: 0;
+        margin: 0 20px;
+    }
+
+    .art-text h2{
+        margin: 0 80px;
+        font-size: 2.5em;
+        padding-bottom: 30px;
+
+
+
+    }
+
+    .art-text p{
+        margin: 0 80px;
+
+    }
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer ul{
+        padding: 20px 0;
+    }
+
+    .footer-img{
+        padding-bottom: 35px;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 5% 0;
+    }
+}
